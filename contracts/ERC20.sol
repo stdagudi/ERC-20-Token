@@ -92,9 +92,9 @@ contract ERC20{
   using SafeMath for uint256;
   
 
-  string public name="HDA Token";
-  string public asset="Real Estate";
-  uint256 public totalSupply=400000;
+  string public name=[[NAME]];
+  string public asset=[[ASSET]];
+  uint256 public totalSupply=[[TOKENSUPPLY]];
   uint256  public decimals = 18;
   address public issuer;
   address public registrar;
