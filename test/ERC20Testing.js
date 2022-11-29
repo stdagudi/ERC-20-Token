@@ -11,9 +11,9 @@ contract("ERC20 Testing Part -1 ", (accounts) => {
     const info = await instance.asset();
     const Supply = await instance.totalSupply();
     const decimals = await instance.decimals();
-    assert(name === "HDA Token");
-    assert(info === "Reals Estate");
-    assert(Supply.toNumber() === 400000);
+    assert(name === [[NAME]]);  //----------------
+    assert(info === [[ASSET]]); //----------------
+    assert(Supply.toNumber() === [[TOKENSUPPLY]]); //----------------
     assert(decimals.toNumber() === 18);
   });
 
